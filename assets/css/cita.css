@@ -237,6 +237,12 @@ header#header {
     text-align: center;
     margin-bottom: 40px;
   }
+
+  @media (max-width: 768px) {
+    .banner {
+      padding: 0px;
+    }
+  }
   
   .tituloBanner {
     font-family: 'Nunito';
