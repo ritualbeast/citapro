@@ -423,14 +423,14 @@ header#header {
 /* Estilos para la animación de la sección de citas */
 .hidden {
   opacity: 0;
-  transition: opacity 3.5s ease, visibility 2s 2.5s;
+  transition: opacity 1.5s ease, visibility 2s 2.5s;
   visibility: hidden;
 }
 
 .visible {
   opacity: 1;
   visibility: visible;
-  transition: opacity 3.5s ease;
+  transition: opacity 1.5s ease;
 }
 
 
@@ -525,4 +525,13 @@ header#header {
   }
 }
 
+@media (max-width: 768px) {
+  #animatedImage {
+    height: 400px !important;
+  }
+  
+}
 
+html {
+  scroll-behavior: smooth;
+}
